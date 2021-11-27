@@ -1,0 +1,406 @@
+body{
+	font-family: Ubuntu, Sans-Serif;
+	margin: 0;
+	padding: 0;
+}
+header{
+	position: fixed;
+	background-color: none;
+	z-index: 1000;
+	width: 100%;
+}
+.navbar{
+	padding: 0;
+	margin-bottom: 62px;
+	margin: 0;
+	text-decoration: none;
+	list-style-type: none;
+	box-sizing: border-box;
+}
+
+nav{
+	/*background-color: rgba(255,255,255, 0.1);*/
+	height: 61px;
+	width: 100%;
+	padding: 0;
+}
+
+label.logo, img{
+	/*font-size: 35px;
+	color: black;
+	line-height: 80px;
+	font-weight: bold;*/
+	padding: 0 100px 10px 0;
+	
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+	border-radius: 3px;
+}
+
+nav ul li a{
+	color: black;
+	font-size: 17px;
+	text-transform: capitalize;
+	text-decoration: none;
+	padding: 7px 13px;
+	border-radius: 3px;
+}
+
+.active{
+	background-color: black;
+	border-radius: 100px;
+}
+
+.active:hover{
+	background-color: #FFA400;
+	color: white;
+}
+
+a.active, a:hover{ 
+	color: #FFA400;
+	transition: .3s;
+}
+
+.checkbtn{
+	font-size: 30px;
+	color: black;
+	float: right;
+	line-height: 80px;
+	margin-top: 20px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+#check{
+	display: none;
+}
+
+/*For connection page*/
+section{
+	background-image: url("images/3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+}
+/*.div-con-cust{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	background-size: 100%;
+}
+*/
+//*.box-container{
+	color: lightgrey;*/
+	/*position: relative;*/
+	/*float: right;
+	margin-top: 8%;
+	margin-right: 15%;
+	padding: 0 2%;*/
+	/*padding-bottom: 0;*/
+	/*width: 250px;
+	background-color: rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 10px lightgrey;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+ .con-box-1 h1{
+ 	text-align: center;
+ }
+form h2{
+	font-size: 14px;
+	margin: 0 0 15px 0;
+	text-align: left;
+}
+.input-div{
+	display: flex;
+	flex-direction: column;
+	margin: 25px 0;
+	padding:0;
+	border-bottom: 2px solid #FFA400;
+}
+.champ{
+	display: grid;
+	grid-template-columns: 10fr 89fr;
+	justify-content: space-between;
+}
+
+.champ i{
+	align-self: center;
+}
+
+.champ input{
+	height: 50px;
+	font-size: 15px;
+	background: none;
+	border: none;
+	outline: none;
+}
+
+.con-box-2 div a{
+	color: lightgrey;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+.con-box-2 div a:hover{
+	color: #FFA400;
+}
+
+.forgotten-link{
+	text-align: right;
+	font-size: 12px;
+}
+
+.remember-me{
+	font-size: 12px;
+	color: lightgrey;
+}
+
+.btn{
+	margin: 15px;
+	padding: 10px;
+	font-size: 12px;
+	background-color: black;
+	color: #FFA400;
+	outline: none;
+	border-radius: 20px;
+	border: none;
+	background-color: black; 
+}*/
+
+.btn:hover{
+	background-color: #FFA400;
+	color: white;
+}
+
+/*footer new version*/
+
+footer{
+	background-color: none;
+	color: #FFA400;
+	font-size: 14px;
+	position: fixed;
+	top: 88%;
+	width: 100%;
+}
+
+.con-footer ul{
+	list-style-type: none;
+	width: 100%;
+	margin: auto;
+	padding: 0; 
+}
+
+.box-1 li{
+	display: inline-block;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	width: 10%;
+	height: 100%;
+	/*border: 1px solid red;*/
+}
+.con-footer ul li a{
+	text-decoration: none;
+	color: lightgrey;
+	text-transform: capitalize;
+}
+.con-footer ul li a:hover{
+	color: #FFA400;
+}
+.con-footer{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-basis: 100%;
+}
+
+.box-1{
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.submenu, .submenu0{
+	display: none;
+}
+
+.minimenu li, .minimenu0 li{
+	display: block;
+	margin: 0;
+	padding: 10px 0 10px 0;
+	width: 100%;
+	border-bottom: 1px solid lightgrey;
+}
+.submenu li a, .submenu0 li a{
+	color: black;
+	margin: auto;
+	padding: 0 10px;
+}
+
+.minimenu:hover .submenu{
+	display: inline-block;
+	background-color: black;
+	/*position: absolute;
+	top:89%;
+	width: auto;
+	right: 5%;*/
+/*	height: 10%;*/
+	/*border-bottom: 1px solid #FFA400;*/
+}
+.minimenu0:hover .submenu0{
+	display: inline-block;
+	background-color: black;
+	position: absolute;
+	top:95%;
+	width: auto;
+	right: 45%;
+}
+
+hr{
+	margin: auto;
+	padding: 0;
+	width: 80%;
+	color: rgba(211,211,211,0.10);
+}
+
+.box-2{
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.box-2-a, .box-2-b{
+	flex: 1;
+	padding-bottom: 10px;
+}
+
+.box-2-a p, .box-2-b p{
+	margin: 10px;
+	padding: 0px;
+}
+
+.box-2-b{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding: 10px 0;
+	/*border: 1px solid white;*/
+}
+.box-2-b a{
+	text-decoration: none;
+	font-size: 20px;
+	color: lightgrey;
+}
+.box-2-b a:hover{
+	color: #FFA400;
+}
+.b-2-p1{
+	flex-basis: 10%;
+	/*border: 1px solid white;*/
+}
+
+.b-2-p2{
+	flex-basis: 10%;
+	/*border: 1px solid white;*/
+}
+.b-2-p3{
+	flex-basis: 10%;
+	/*border: 1px solid white;*/
+}
+
+/*RESPONSIVITY*/
+@media (max-width: 952px/*, width: 1107px*/){
+	/*For all*/
+	p, a{
+		font-size: 12px;
+	}
+	/*For header*/
+	label.logo, img{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+	/*For connection page*/
+
+	/*For footer*/
+	.ft-left{
+		width: 100%;
+		height: 30%;
+		padding: 5% 5% 5% 0;
+		margin: 0;
+	}
+
+	.ft-left-content, .ft-middle, .ft-right{
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+@media (max-width: 858px){
+	/*For header*/
+	.checkbtn{
+		display: block;
+	}
+	nav ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: white;
+		top: 80px;
+		left: -150%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+	}
+	nav ul li a{
+		font-size: 12px;
+		color: black;
+	}
+	a:hover; a.active{
+		background-color: none;
+		color: #0082e6;
+	}
+
+	#check:checked ~ ul{
+		left: 0;
+	}
+	.checkbtn:hover{
+		color: #FFA400;
+	}
+
+	/*for connection page*/
+	
+
+	/*For footer*/
+	.ft-left{margin-left: 0; padding: 0;}
+}
+
